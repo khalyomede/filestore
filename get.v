@@ -1,4 +1,4 @@
-module filestorage
+module filestore
 
 import os
 

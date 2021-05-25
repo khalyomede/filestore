@@ -1,4 +1,4 @@
-# filestorage
+# filestore
 
 Multiple functions on file disk for V.
 
@@ -27,7 +27,7 @@ I create this library to easily manipulate files on the disk.
 ## Installation
 
 ```v
-v install khalyomede.filestorage
+v install khalyomede.filestore
 ```
 
 ## Examples
@@ -43,7 +43,7 @@ v install khalyomede.filestorage
 In this example, we will erase the content of a file by another.
 
 ```v
-import khalyomede.filestorage { Disk }
+import khalyomede.filestore { Disk }
 
 fn main() {
   logs := Disk{ folder: "logs" }
@@ -61,7 +61,7 @@ Note that if the file does not exists, this creates it.
 In this example, we will add a content to a file that already has some content.
 
 ```v
-import khalyomede.filestorage { Disk }
+import khalyomede.filestore { Disk }
 import os
 
 fn main() {
@@ -82,7 +82,7 @@ fn main() {
 In this example, we will check that a file exists in its disk.
 
 ```v
-import khalyomede.filestorage { Disk }
+import khalyomede.filestore { Disk }
 
 fn main() {
   logs := Disk{ folder: "logs" }
@@ -96,7 +96,7 @@ fn main() {
 In this example, we will get the path of a file with its disk folder.
 
 ```v
-import khalyomede.filestorage { Disk }
+import khalyomede.filestore { Disk }
 
 fn main() {
   logs := Disk{ folder: "logs" }
@@ -110,7 +110,7 @@ fn main() {
 In this example, we will delete a file from our disk.
 
 ```v
-import khalyomede.filestorage { Disk }
+import khalyomede.filestore { Disk }
 
 fn main() {
   logs := Disk{ folder: "logs" }

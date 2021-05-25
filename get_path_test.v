@@ -1,6 +1,6 @@
 module test
 
-import filestorage { Disk }
+import filestore { Disk }
 
 fn test_get_path_returns_correct_path() {
 	misc := Disk{ folder: "misc" }

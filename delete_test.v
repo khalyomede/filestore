@@ -1,6 +1,6 @@
 module test
 
-import filestorage { Disk }
+import filestore { Disk }
 import os
 
 fn before_each() {
